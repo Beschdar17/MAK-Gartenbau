@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Referenzen von MAK Gartenbau – Entdecken Sie unsere realisierten Gartenprojekte in einer inspirierenden Galerie.">
+  <title>Referenzen – MAK Gartenbau</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" href="Favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="img/images/Logo.png" alt="MAK Gartenbau Logo" class="logo-img">
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Startseite</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="referenzen.html" class="active">Referenzen</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="kontakt.html" class="btn btn-primary">Beratung anfragen</a>
+      </div>
+
+      <button class="hamburger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav">
+      <a href="index.html">Startseite</a>
+      <a href="leistungen.html">Leistungen</a>
+      <a href="referenzen.html" class="active">Referenzen</a>
+      <a href="ueber-uns.html">Über uns</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="kontakt.html" class="btn btn-primary">Beratung anfragen</a>
+    </nav>
+  </header>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Startseite</a>
+        <span class="sep">/</span>
+        <span>Referenzen</span>
+      </div>
+      <h1>Unsere Referenzen</h1>
+      <p>Lassen Sie sich von unseren realisierten Projekten inspirieren. Jeder Garten erzählt seine eigene Geschichte.</p>
+    </div>
+  </section>
+
+  <!-- ========== STRABAG-STYLE FEATURED PROJECTS ========== -->
+  <section class="info-cards" style="padding-top: 0;">
+    <div class="cards-grid-featured">
+      <div class="info-card featured reveal">
+        <div class="card-image" style="background: linear-gradient(135deg, #2d6a3f, #1a3a2a);">
+          <!-- Bild-Platzhalter: Großes Feature-Projekt -->
+          Bild: Moderner Villengarten
+        </div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <span class="card-tag">Highlight-Projekt</span>
+          <h3 class="card-title">Moderner Villengarten München</h3>
+          <p class="card-desc">Komplette Neugestaltung auf 800m² – minimalistisches Design mit Infinity-Pool und edler Natursteinterrasse.</p>
+        </div>
+      </div>
+      <div class="info-card featured reveal delay-1">
+        <div class="card-image" style="background: linear-gradient(135deg, #3a8a52, #1e4d2b);">
+          <!-- Bild-Platzhalter -->
+          Bild: Japanischer Garten
+        </div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <span class="card-tag">Designgarten</span>
+          <h3 class="card-title">Japanischer Zen-Garten</h3>
+          <p class="card-desc">Fernöstliche Ästhetik mit Kiesflächen, Formgehölzen und einem handgefertigten Wasserelement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIE MIT FILTER ========== -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" style="padding-left: 0;">Projektgalerie</span>
+        <h2>Einblick in unsere Arbeit</h2>
+        <p class="section-intro centered" style="margin-bottom: 2rem;">
+          Von privaten Gartenoasen bis zu gewerblichen Außenanlagen – hier finden Sie eine Auswahl unserer Projekte.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter reveal">
+        <button class="filter-btn active" data-filter="alle">Alle Projekte</button>
+        <button class="filter-btn" data-filter="modern">Modern</button>
+        <button class="filter-btn" data-filter="naturnah">Naturnah</button>
+        <button class="filter-btn" data-filter="pflaster">Pflaster & Wege</button>
+        <button class="filter-btn" data-filter="terrasse">Terrassen</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <div class="gallery-item tall reveal" data-category="modern">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #a5d6a7, #2d6a3f);">
+            Bild: Moderner Garten 1
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Geometrischer Garten</h4>
+            <p>Klare Formen, edle Materialien – München</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal delay-1" data-category="pflaster">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #d7ccc8, #795548);">
+            Bild: Pflasterweg
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Geschwungener Gartenweg</h4>
+            <p>Naturstein-Pflaster – Augsburg</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal delay-2" data-category="terrasse">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #bcaaa4, #5d4037);">
+            Bild: Holzterrasse
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Lärchen-Terrasse</h4>
+            <p>40m² Terrassenfläche – Nürnberg</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal" data-category="naturnah">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #c8e6c9, #388e3c);">
+            Bild: Naturgarten
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Wildblumenwiese</h4>
+            <p>Ökologisches Paradies – Regensburg</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal delay-1" data-category="modern">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #81c784, #1b5e20);">
+            Bild: Moderner Vorgarten
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Repräsentativer Vorgarten</h4>
+            <p>Minimalistisches Design – Ingolstadt</p>
+          </div>
+        </div>
+
+        <div class="gallery-item tall reveal delay-2" data-category="naturnah">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #66bb6a, #1a3a2a);">
+            Bild: Cottage-Garten
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Romantischer Cottage-Garten</h4>
+            <p>Üppige Bepflanzung – Bamberg</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal" data-category="terrasse">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #e8f5e9, #4caf50);">
+            Bild: WPC-Terrasse
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>WPC-Loungeterrasse</h4>
+            <p>Pflegeleicht & modern – Erlangen</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal delay-1" data-category="pflaster">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #a1887f, #3e2723);">
+            Bild: Einfahrt
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Großzügige Hofeinfahrt</h4>
+            <p>Granitpflaster – Fürth</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal delay-2" data-category="modern">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #4caf50, #1a3a2a);">
+            Bild: Dachgarten
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Urbaner Dachgarten</h4>
+            <p>Grüne Oase über der Stadt – München</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal" data-category="naturnah">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #c8e6c9, #2e7d32);">
+            Bild: Teichanlage
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Naturteich mit Bachlauf</h4>
+            <p>Biotop & Wasseranlage – Passau</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal delay-1" data-category="pflaster">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #d7ccc8, #6d4c41);">
+            Bild: Gartentreppe
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Naturstein-Treppe</h4>
+            <p>Hanggestaltung – Würzburg</p>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal delay-2" data-category="terrasse">
+          <div class="gallery-image" style="background: linear-gradient(145deg, #a5d6a7, #1e4d2b);">
+            Bild: Poolterrasse
+          </div>
+          <div class="gallery-overlay"></div>
+          <div class="gallery-info">
+            <h4>Pool-Terrasse</h4>
+            <p>Naturstein-Umrandung – Starnberg</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STRABAG-STYLE PROJEKT CARDS ========== -->
+  <section class="info-cards" style="padding-top: 0;">
+    <div class="container reveal">
+      <span class="section-label">Weitere Impressionen</span>
+      <h2>Verschiedene Gartenstile</h2>
+      <p class="section-intro" style="margin-bottom: 3rem;">
+        Jeder Garten ist so individuell wie sein Besitzer. Hier zeigen wir Ihnen die Bandbreite unserer Gestaltungsmöglichkeiten.
+      </p>
+    </div>
+
+    <div class="cards-grid">
+      <div class="info-card reveal">
+        <div class="card-image" style="background: linear-gradient(135deg, #66bb6a, #1a3a2a);">
+          Bild: Mediterraner Garten
+        </div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <span class="card-tag">Mediterran</span>
+          <h3 class="card-title">Mediterranes Flair</h3>
+          <p class="card-desc">Lavendel, Olivenbäume und Terrakotta – südländisches Lebensgefühl im eigenen Garten.</p>
+        </div>
+      </div>
+
+      <div class="info-card reveal delay-1">
+        <div class="card-image" style="background: linear-gradient(135deg, #81c784, #2d6a3f);">
+          Bild: Formaler Garten
+        </div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <span class="card-tag">Formal</span>
+          <h3 class="card-title">Klassische Eleganz</h3>
+          <p class="card-desc">Symmetrische Anordnung, Buchsbaumhecken und edle Blütenensembles.</p>
+        </div>
+      </div>
+
+      <div class="info-card reveal delay-2">
+        <div class="card-image" style="background: linear-gradient(135deg, #4caf50, #1e4d2b);">
+          Bild: Minimalistischer Garten
+        </div>
+        <div class="card-overlay"></div>
+        <div class="card-content">
+          <span class="card-tag">Minimalistisch</span>
+          <h3 class="card-title">Puristische Klarheit</h3>
+          <p class="card-desc">Reduzierte Gestaltung mit maximaler Wirkung – weniger ist mehr.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER (CTA + Copyright) ========== -->
+  <footer class="cta-banner" style="padding-bottom: 0;">
+    <div class="container">
+      <div>
+        <h2>Ihr Projekt könnte das nächste sein</h2>
+        <p>Lassen Sie sich inspirieren und starten Sie Ihr eigenes Gartenprojekt mit uns.</p>
+      </div>
+      <div>
+        <a href="kontakt.html" class="btn btn-outline btn-arrow">Projekt besprechen</a>
+      </div>
+    </div>
+    <div class="footer-bottom-wrap" style="margin-top: 3rem;">
+      <div class="container">
+        <div class="footer-bottom">
+        <span>&copy; 2026 MAK Gartenbau. Alle Rechte vorbehalten.</span>
+        <div class="footer-legal">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
